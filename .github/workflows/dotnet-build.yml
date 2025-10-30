@@ -19,4 +19,4 @@ jobs:
           echo "Triggered by: ${{ github.event_name }}"
           echo "Actor: ${{ github.actor }}"
           echo "Run number: ${{ github.run_number }}"
-          echo "Branch: ${{ github.red }}"
+          echo "Branch: ${{ github.ref }}"
