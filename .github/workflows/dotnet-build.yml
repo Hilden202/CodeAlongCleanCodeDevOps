@@ -43,7 +43,7 @@ jobs:
           dotnet-version: '9.0.x'
 
       - name: Build project
-        working-directory: CleanCodeDevOps.App/CleanCodeDevOps.App
+        working-directory: CleanCodeDevOps.App/CleanCodeDevOps.App/CleanCodeDevOps.App
         run: dotnet build
 
       - name: Run code
